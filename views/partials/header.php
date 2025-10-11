@@ -6,4 +6,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>project</title>
 </head>
-<body class="full">
+<body class="full bg-blue-100">
