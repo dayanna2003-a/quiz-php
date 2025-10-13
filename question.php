@@ -1,17 +1,6 @@
-<?php require "views/question.view.php";?>
-
-<?php session_start(); 
-  $question="PHP stands for what?";
-$choices=[
-  "personal hypertext processor",
-  "preprocessor hypretext processor",
-  "php hypertext preprocessor",
-  "private hypertext processor"
-];
-$answer="php hypertexr preprocessor";
-
-if($_SERVER['REQUEST_METHOD']){
-  
-}
-
-?>
+<?php require "question.1.php";
+      require "question.2.php";
+       require "question.3.php";
+        require "question.4.php";
+        require "question.5.php";
+ ?>
