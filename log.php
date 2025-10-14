@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body class="bg-blue-100">
-    <form action="question.php" method="post">
+    <form action="question.1.php" method="post">
         <label for="" class="font-semibold text-2xl ml-20 md:ml-130 ">first name:</label>
         <input type="text" name="firstname:" class="rounded mt-40 p-2 shadow-md bg-white"><br>
         <label for="" class="font-semibold text-2xl ml-20 md:ml-130">third name:</label>
