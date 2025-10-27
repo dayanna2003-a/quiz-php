@@ -24,3 +24,26 @@
     </form>
 </body>
 </html>
+<?php 
+if(isset($_POST["submit"])){
+
+     $firstname =$_POST["first name"];
+      $secondname =$_POST["second name"];
+       $thirdname =$_POST["third name"];
+
+       if(empty($firstname)){
+            echo "first name is missing";
+       }
+       elseif(empty($secondname)){
+        echo "second name is missing";
+       }
+        elseif(empty($thirdname)){
+        echo "third name is missing";
+       }
+       else {
+         echo "submit";
+       }
+
+}
+
+?>
